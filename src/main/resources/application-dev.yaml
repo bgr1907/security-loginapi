@@ -1,0 +1,12 @@
+spring:
+  data:
+    elasticsearch:
+      custom:
+        ip: localhost
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/loginapi
+    username: postgres
+    password: bgr.1907
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
