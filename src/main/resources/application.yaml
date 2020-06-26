@@ -30,9 +30,9 @@ spring:
       test-on-create: true
   jpa:
     generate-ddl: true
-    ddl-auto: update
     properties:
       hibernate:
+        ddl-auto: update
         generate_statistics: false
         default_schema: public
         format_sql: true
